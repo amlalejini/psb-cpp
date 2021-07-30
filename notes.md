@@ -3,6 +3,11 @@
 ## TODOS
 
 - Cleanup third-party
+- Organize by problem set
+- Add a check constraints function?
+- Add intermediate problem base type for each suite
+  - e.g., PSB2_ProblemBase
+    - would allow for better default interpretation, plus more specific shared functionality
 
 ## Ideas
 
