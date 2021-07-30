@@ -1,5 +1,9 @@
 # Notes
 
+## TODOS
+
+- Cleanup third-party
+
 ## Ideas
 
 - Add scripts to download data using PSB2 python package
