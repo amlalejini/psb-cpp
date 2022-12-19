@@ -14,7 +14,7 @@ namespace psb {
 namespace reader {
 
 // basement
-struct Basement : BaseProblemReader<
+struct Basement : public BaseProblemReader<
   emp::vector<int>, /* INPUT_T */
   int               /* OUTPUT_T */
 > {

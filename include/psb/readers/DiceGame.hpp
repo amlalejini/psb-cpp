@@ -16,7 +16,7 @@ namespace psb {
 namespace reader {
 
 // Dice game
-struct DiceGame : BaseProblemReader<
+struct DiceGame : public BaseProblemReader<
   emp::array<int, 2>,
   double
 > {

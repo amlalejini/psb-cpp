@@ -14,7 +14,7 @@ namespace psb {
 namespace reader {
 
 // Bouncing balls
-struct BouncingBalls : BaseProblemReader<
+struct BouncingBalls : public BaseProblemReader<
   std::tuple<double, double, int>,
   double
 > {

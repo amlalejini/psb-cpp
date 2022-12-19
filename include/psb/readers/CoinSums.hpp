@@ -16,7 +16,7 @@ namespace psb {
 namespace reader {
 
 // Coin sums
-struct CoinSums : BaseProblemReader<
+struct CoinSums : public BaseProblemReader<
   int,
   emp::array<int, 4>
 > {

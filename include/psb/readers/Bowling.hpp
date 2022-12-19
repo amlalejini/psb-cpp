@@ -16,7 +16,7 @@ namespace psb {
 namespace reader {
 
 // Bowling
-struct Bowling : BaseProblemReader<
+struct Bowling : public BaseProblemReader<
   std::string,
   int
 > {

@@ -16,7 +16,7 @@ namespace psb {
 namespace reader {
 
 // CamelCase problem
-struct CamelCase : BaseProblemReader<
+struct CamelCase : public BaseProblemReader<
   std::string,
   std::string
 > {

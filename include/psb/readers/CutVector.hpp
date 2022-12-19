@@ -16,7 +16,7 @@ namespace psb {
 namespace reader {
 
 // CutVector problem
-struct CutVector : BaseProblemReader<
+struct CutVector : public BaseProblemReader<
   emp::vector<int>,
   emp::array<emp::vector<int>, 2>
 > {
