@@ -1,3 +1,6 @@
 [submodule "third-party/Empirical"]
 	path = third-party/Empirical
 	url = https://github.com/devosoft/Empirical.git
+[submodule "third-party/program-synthesis-benchmark-datasets"]
+	path = third-party/program-synthesis-benchmark-datasets
+	url = https://github.com/thelmuth/program-synthesis-benchmark-datasets.git
