@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+# Local
+.vscode/
+
+# Python environment
+pyenv/
