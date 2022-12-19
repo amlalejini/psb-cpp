@@ -29,7 +29,7 @@ struct DiceGame : BaseProblemReader<
             j["input1"],
             j["input2"]
           },
-          j["output1"],
+          j["output1"]
         );
       }
     );

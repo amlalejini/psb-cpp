@@ -16,7 +16,7 @@ namespace psb {
 namespace reader {
 
 // Bowling
-struct DiceGame : BaseProblemReader<
+struct Bowling : BaseProblemReader<
   std::string,
   int
 > {
