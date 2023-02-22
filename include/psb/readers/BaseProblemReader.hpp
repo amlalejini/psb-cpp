@@ -9,7 +9,7 @@
 
 namespace psb {
 
-namespace reader {
+namespace readers {
 
 template<typename INPUT_T, typename OUTPUT_T>
 struct BaseProblemReader {

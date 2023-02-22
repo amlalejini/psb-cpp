@@ -11,7 +11,7 @@
 
 namespace psb {
 
-namespace reader {
+namespace readers {
 
 // Bouncing balls
 struct BouncingBalls : public BaseProblemReader<

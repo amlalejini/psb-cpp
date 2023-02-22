@@ -13,7 +13,7 @@
 
 namespace psb {
 
-namespace reader {
+namespace readers {
 
 // GCD (greatest common divisor)
 struct GCD : public BaseProblemReader<

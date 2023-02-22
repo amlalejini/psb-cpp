@@ -13,7 +13,7 @@
 
 namespace psb {
 
-namespace reader {
+namespace readers {
 
 // SnowDay
 struct SnowDay : public BaseProblemReader<

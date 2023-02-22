@@ -13,7 +13,7 @@
 
 namespace psb {
 
-namespace reader {
+namespace readers {
 
 // Smallest
 struct Smallest : public BaseProblemReader<

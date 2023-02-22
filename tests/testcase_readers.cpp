@@ -9,7 +9,7 @@
 
 TEST_CASE("Basement", "[problem][psb2]") {
 
-  using problem_t = psb::reader::Basement;
+  using problem_t = psb::readers::Basement;
   const std::string data_path("problem-data/basement/basement.json");
 
   problem_t problem;

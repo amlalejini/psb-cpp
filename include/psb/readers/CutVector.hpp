@@ -13,7 +13,7 @@
 
 namespace psb {
 
-namespace reader {
+namespace readers {
 
 // CutVector problem
 struct CutVector : public BaseProblemReader<

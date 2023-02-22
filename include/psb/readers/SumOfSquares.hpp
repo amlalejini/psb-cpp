@@ -13,7 +13,7 @@
 
 namespace psb {
 
-namespace reader {
+namespace readers {
 
 // Sum of squares
 struct SumOfSquares : public BaseProblemReader<

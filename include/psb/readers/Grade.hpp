@@ -13,7 +13,7 @@
 
 namespace psb {
 
-namespace reader {
+namespace readers {
 
 // Grade
 struct Grade : public BaseProblemReader<

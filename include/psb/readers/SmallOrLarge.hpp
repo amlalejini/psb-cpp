@@ -13,7 +13,7 @@
 
 namespace psb {
 
-namespace reader {
+namespace readers {
 
 // Small or large
 struct SmallOrLarge : public BaseProblemReader<

@@ -13,7 +13,7 @@
 
 namespace psb {
 
-namespace reader {
+namespace readers {
 
 // CamelCase problem
 struct CamelCase : public BaseProblemReader<

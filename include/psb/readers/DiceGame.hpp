@@ -13,7 +13,7 @@
 
 namespace psb {
 
-namespace reader {
+namespace readers {
 
 // Dice game
 struct DiceGame : public BaseProblemReader<

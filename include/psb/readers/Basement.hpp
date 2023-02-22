@@ -11,7 +11,7 @@
 
 namespace psb {
 
-namespace reader {
+namespace readers {
 
 // basement
 struct Basement : public BaseProblemReader<
