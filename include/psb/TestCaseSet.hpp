@@ -8,7 +8,7 @@
 #include <iostream>
 #include <fstream>
 
-#include "json/json.hpp"
+#include "../../third-party/json/json.hpp"
 #include "emp/base/vector.hpp"
 
 #include "readers/BaseProblemReader.hpp"
@@ -19,7 +19,7 @@ class BaseTestCaseSet {
 protected:
   BaseTestCaseSet() = default;
 public:
-
+  virtual ~BaseTestCaseSet() = default;
   virtual void Clear() = 0;
   virtual size_t GetSize() const = 0;
   virtual std::string GetProblemName() const = 0;

@@ -4,7 +4,7 @@
 #include <string>
 #include <functional>
 
-#include "json/json.hpp"
+#include "../../../third-party/json/json.hpp"
 #include "emp/base/vector.hpp"
 
 #include "BaseProblemReader.hpp"
