@@ -57,10 +57,14 @@ public:
   }
 
   const input_t& GetInput(size_t id) const {
-    return test_cases[id];
+    return test_cases[id].first;
   }
 
   const output_t& GetOutput(size_t id) const {
+    return test_cases[id].second;
+  }
+
+  const test_case_t& GetTest(size_t id) const {
     return test_cases[id];
   }
 
