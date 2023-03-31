@@ -54,8 +54,6 @@ def sample_even_output(
     for output_key in output_ids:
         random.shuffle(output_ids[output_key])
     output_keys = list(output_ids.keys())
-    print(output_ids)
-    print(output_keys)
     # Evenly sample examples from "sample_from" based on output category
     num_excluded_examples = len(sample_from)
     current_output_type = 0
