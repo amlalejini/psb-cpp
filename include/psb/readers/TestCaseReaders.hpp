@@ -13,3 +13,4 @@
 #include "SmallOrLarge.hpp"
 #include "SnowDay.hpp"
 #include "SumOfSquares.hpp"
+#include "FizzBuzz.hpp"
