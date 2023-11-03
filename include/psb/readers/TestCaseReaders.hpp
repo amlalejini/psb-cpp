@@ -14,3 +14,4 @@
 #include "SnowDay.hpp"
 #include "SumOfSquares.hpp"
 #include "FizzBuzz.hpp"
+#include "ForLoopIndex.hpp"

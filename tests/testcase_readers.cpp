@@ -42,6 +42,31 @@ TEST_CASE("Basement", "[problem][psb2]") {
   }
 }
 
+TEST_CASE("ForLoopIndex", "[problem][psb1]") {
+  using problem_t = psb::readers::ForLoopIndex;
+  const std::string data_path("problem-data/for-loop-index/for-loop-index.json");
+
+  problem_t problem;
+  REQUIRE(problem.name() == "for-loop-index");
+
+  std::ifstream data_ifstream(data_path);
+  nlohmann::json data_json;
+
+  emp::vector<
+    std::pair<problem_t::input_t, problem_t::output_t>
+  > loaded_tests;
+
+
+  std::string line;
+  while (std::getline(data_ifstream, line)) {
+    loaded_tests.emplace_back(problem.ReadTestJSON(line));
+    std::cout << loaded_tests.back().second << std::endl;
+  }
+  data_ifstream.close();
+
+  REQUIRE(loaded_tests.size() == 11);
+}
+
 // TEST_CASE("BouncingBalls", "[problem][psb2]") {
 //   using problem_t = psb::BouncingBalls;
 //   const std::string data_path("problem-data/bouncing-balls/bouncing-balls.json");
